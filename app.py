@@ -15,7 +15,7 @@ st.caption(
 # Load the internal trained tree model from your .pkcls file
 @st.cache_resource
 def load_trained_tree():
-  with open("car_model.pkcls", "rb") as f:
+  with open("car model.pkcls", "rb") as f:
     saved_obj = pickle.load(f)
 
   # Check if saved object is the scikit-learn model or wrapped in Orange's learner container
